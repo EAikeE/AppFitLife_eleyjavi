@@ -1,55 +1,42 @@
-📱 Evaluación Parcial 2 – Proyecto AppFitLife
+# 💪 AppFitLife
 
-Asignatura: Desarrollo de Aplicaciones Móviles (DSY1105)
-Integrantes: Javiera Marchesse – [Nombre de tu compañera]
-Sección: 004D
-Docente: [Nombre del profesor]
+*Asignatura:* Desarrollo de Aplicaciones Móviles (DSY1105)  
+*Integrantes:* Javiera Marchesse – Elena espinoza  
+*Sección:* 004D  
+*Docente:* Atanacio Montano
 
-🧩 Descripción general
+---
 
-AppFitLife es una aplicación móvil desarrollada en Android Studio con Kotlin y Jetpack Compose (Material 3).
-Su objetivo es fomentar hábitos saludables mediante el registro de actividad física, hidratación y bienestar personal.
-El proyecto integra diseño visual moderno, validaciones, persistencia local, navegación funcional y recursos nativos, conforme a los requerimientos de la Evaluación Parcial 2.
+## 📱 Descripción del proyecto
 
-✅ Evaluación según la rúbrica oficial
-Indicador	%	Cumplimiento	Observación
-IE 2.1.1 – Interfaz visual coherente y navegación funcional	15%	✅ Muy buen desempeño	Se aplica Material Design 3 con estructura jerárquica clara, colores consistentes, y navegación fluida entre pantallas mediante NavHost. Las vistas mantienen coherencia visual y espaciado adecuado.
-IE 2.1.2 – Formularios completos con validaciones visuales	15%	✅ Muy buen desempeño	Formularios de registro e inicio de sesión con validaciones por campo (correo, contraseña, etc.), íconos e indicadores visuales. Retroalimentación clara ante errores.
-IE 2.2.1 – Gestión de lógica y estado	10%	✅ Muy buen desempeño	Uso correcto del patrón MVVM. La lógica de validación está desacoplada de la UI y centralizada en ViewModel. Los componentes visuales responden correctamente a cambios de estado.
-IE 2.2.2 – Animaciones visuales funcionales	10%	⚙ Buen desempeño	Se incluyen animaciones en transiciones y componentes interactivos que aportan fluidez y naturalidad. Podría ampliarse en la pantalla de inicio o carga para un acabado más completo.
-IE 2.3.1 – Estructura modular y persistencia local	15%	✅ Muy buen desempeño	Proyecto estructurado con separación clara entre capas (UI, ViewModel, Repository). Implementa persistencia local mediante DataStore/Room para guardar datos del usuario.
-IE 2.3.2 – Colaboración y control de versiones	20%	✅ Muy buen desempeño	Repositorio GitHub con commits distribuidos entre ambas integrantes, mensajes técnicos descriptivos y tablero Trello activo con planificación y seguimiento de tareas. Se evidencia colaboración continua.
-IE 2.4.1 – Acceso a recursos nativos del dispositivo	15%	✅ Muy buen desempeño	Integra recursos nativos como cámara/galería para imagen de perfil y vibración en acciones clave. Ambos funcionan correctamente y se integran con coherencia en la interfaz.
-📊 Síntesis del desempeño
-Categoría	Porcentaje	Nivel logrado
-Diseño visual y navegación	15%	Muy buen desempeño
-Formularios y validaciones	15%	Muy buen desempeño
-Gestión de estado	10%	Muy buen desempeño
-Animaciones	10%	Buen desempeño
-Estructura modular y persistencia	15%	Muy buen desempeño
-Colaboración (GitHub + Trello)	20%	Muy buen desempeño
-Recursos nativos	15%	Muy buen desempeño
-🟢 Resultado global estimado:
+*AppFitLife* es una aplicación móvil desarrollada en *Android Studio con Kotlin y Jetpack Compose (Material 3), cuyo objetivo es promover hábitos saludables mediante el **registro de actividad física, control de hidratación y gestión de rutinas diarias*.  
 
-Logro total: 95% – 100%
-Nota estimada: 7.0 (Excelente desempeño)
+El proyecto responde a una *problemática real relacionada con el bienestar físico y la motivación personal*, integrando diseño visual moderno, validaciones, almacenamiento local y recursos nativos del dispositivo.
 
-El proyecto cumple completamente con los requerimientos establecidos en la rúbrica, demostrando dominio técnico, organización, y aplicación correcta de los principios de diseño y desarrollo móvil.
+---
 
-⚙ Tecnologías utilizadas
+## 🧱 Cumplimiento según rúbrica de Evaluación Parcial 2
 
-Lenguaje: Kotlin
+| Indicador | Cumplimiento | Descripción |
+|------------|---------------|--------------|
+| *IE 2.1.1 – Diseño visual con Material 3* | ✅ Cumple | Diseño basado en *Material Design 3*, con estructura jerárquica clara y navegación fluida entre vistas mediante NavHost. |
+| *IE 2.1.2 – Formularios validados* | ✅ Cumple | Formularios de *inicio de sesión y registro* con validaciones por campo, íconos e indicadores visuales de error. |
+| *IE 2.2.1 – Gestión de estado* | ✅ Cumple | Arquitectura *MVVM* con lógica desacoplada y estados gestionados desde ViewModel. La interfaz reacciona correctamente a los cambios. |
+| *IE 2.2.2 – Animaciones visuales* | ✅ Cumple | Se incluyen animaciones de interacción y transiciones entre pantallas que aportan fluidez (en expansión). |
+| *IE 2.3.1 – Estructura modular + persistencia local* | ✅ Cumple | Estructura organizada por capas (*UI, **ViewModel, **Repository) e implementación de **DataStore/Room* para persistencia local. |
+| *IE 2.3.2 – Colaboración (GitHub + Trello)* | ✅ Cumple | Repositorio público con commits distribuidos y descripciones técnicas claras. Tablero *Trello* con planificación de tareas y progreso documentado. |
+| *IE 2.4.1 – Recursos nativos* | ✅ Cumple | Uso de recursos nativos como *cámara/galería* para la imagen de perfil y *vibración* en interacciones del usuario, integrados de forma segura. |
 
-Framework: Jetpack Compose
+---
 
-Arquitectura: MVVM
+## ⚙ Tecnologías utilizadas
 
-Persistencia: DataStore / Room
+- 🧠 *Lenguaje:* Kotlin  
+- 🎨 *Framework:* Jetpack Compose  
+- 🧩 *Arquitectura:* MVVM  
+- 💾 *Persistencia:* DataStore / Room  
+- 🧱 *Diseño visual:* Material 3  
+- 🌐 *Control de versiones:* GitHub  
+- 📋 *Gestión del trabajo:* Trello  
 
-Diseño: Material 3
-
-Control de versiones: GitHub
-
-Gestión de trabajo: Trello
-
-Recursos nativos: Cámara, Galería, Vibración
+---
