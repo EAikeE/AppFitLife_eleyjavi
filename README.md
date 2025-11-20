@@ -8,6 +8,8 @@ Sección: 004D
 
 Docente: Atanacio Montano
 
+
+
 📘 Descripción del Proyecto
 
 AppFitLife es una aplicación móvil desarrollada en Kotlin + Jetpack Compose (Material 3) que ayuda a los usuarios a mejorar su bienestar mediante el registro de actividad física, control de hidratación y seguimiento de rutinas.
