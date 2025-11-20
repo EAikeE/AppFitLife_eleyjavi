@@ -1,11 +1,17 @@
 💪 AppFitLife
+
 📱 Aplicación móvil para promover hábitos saludables
+
 Asignatura: Desarrollo de Aplicaciones Móviles (DSY1105)
+
 Integrantes: Javiera Marchesse – Elena Espinoza
+
 Sección: 004D
+
 Docente: Atanacio Montano
 
 📘 Descripción del Proyecto
+
 AppFitLife es una aplicación móvil desarrollada en Kotlin + Jetpack Compose (Material 3) que ayuda a los usuarios a mejorar su bienestar mediante el registro de actividad física, control de hidratación y seguimiento de rutinas.
 El proyecto integra microservicios propios, consumo de API externa, pruebas unitarias, y un APK firmado listo para distribución, cumpliendo todos los criterios de la Experiencia 3.
 
@@ -31,4 +37,5 @@ El proyecto integra microservicios propios, consumo de API externa, pruebas unit
 | IE 3.3.2 – GitHub + Trello           | ✅      |
 
 🙌 Conclusión
+
 AppFitLife es una aplicación completa, funcional y bien estructurada, que integra todos los componentes requeridos para la Experiencia 3: diseño moderno, microservicios, API externa, pruebas, firma digital y trabajo colaborativo documentado.
