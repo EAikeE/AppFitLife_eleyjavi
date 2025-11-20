@@ -1,42 +1,187 @@
-# 💪 AppFitLife
+💪 AppFitLife
 
-*Asignatura:* Desarrollo de Aplicaciones Móviles (DSY1105)  
-*Integrantes:* Javiera Marchesse – Elena espinoza  
-*Sección:* 004D  
-*Docente:* Atanacio Montano
+Asignatura: Desarrollo de Aplicaciones Móviles (DSY1105)
+Integrantes: Javiera Marchesse – Elena Espinoza
+Sección: 004D
+Docente: Atanacio Montano
 
----
+📱 Descripción del Proyecto
 
-## 📱 Descripción del proyecto
+AppFitLife es una aplicación móvil desarrollada en Kotlin + Jetpack Compose (Material 3) que promueve hábitos saludables mediante herramientas como:
 
-*AppFitLife* es una aplicación móvil desarrollada en *Android Studio con Kotlin y Jetpack Compose (Material 3), cuyo objetivo es promover hábitos saludables mediante el **registro de actividad física, control de hidratación y gestión de rutinas diarias*.  
+Registro y visualización de actividad física
 
-El proyecto responde a una *problemática real relacionada con el bienestar físico y la motivación personal*, integrando diseño visual moderno, validaciones, almacenamiento local y recursos nativos del dispositivo.
+Control de hidratación
 
----
+Gestión de rutinas diarias
 
-## 🧱 Cumplimiento según rúbrica de Evaluación Parcial 2
+Perfil personal
 
-| Indicador | Cumplimiento | Descripción |
-|------------|---------------|--------------|
-| *IE 2.1.1 – Diseño visual con Material 3* | ✅ Cumple | Diseño basado en *Material Design 3*, con estructura jerárquica clara y navegación fluida entre vistas mediante NavHost. |
-| *IE 2.1.2 – Formularios validados* | ✅ Cumple | Formularios de *inicio de sesión y registro* con validaciones por campo, íconos e indicadores visuales de error. |
-| *IE 2.2.1 – Gestión de estado* | ✅ Cumple | Arquitectura *MVVM* con lógica desacoplada y estados gestionados desde ViewModel. La interfaz reacciona correctamente a los cambios. |
-| *IE 2.2.2 – Animaciones visuales* | ✅ Cumple | Se incluyen animaciones de interacción y transiciones entre pantallas que aportan fluidez (en expansión). |
-| *IE 2.3.1 – Estructura modular + persistencia local* | ✅ Cumple | Estructura organizada por capas (*UI, **ViewModel, **Repository) e implementación de **DataStore/Room* para persistencia local. |
-| *IE 2.3.2 – Colaboración (GitHub + Trello)* | ✅ Cumple | Repositorio público con commits distribuidos y descripciones técnicas claras. Tablero *Trello* con planificación de tareas y progreso documentado. |
-| *IE 2.4.1 – Recursos nativos* | ✅ Cumple | Uso de recursos nativos como *cámara/galería* para la imagen de perfil y *vibración* en interacciones del usuario, integrados de forma segura. |
+Integración con microservicios propios
 
----
+Consumo de API externa
 
-## ⚙ Tecnologías utilizadas
+El proyecto se basa en una problemática real: la falta de motivación y seguimiento de hábitos saludables. La app busca entregar una herramienta intuitiva para mejorar el bienestar físico y la organización personal.
 
-- 🧠 *Lenguaje:* Kotlin  
-- 🎨 *Framework:* Jetpack Compose  
-- 🧩 *Arquitectura:* MVVM  
-- 💾 *Persistencia:* DataStore / Room  
-- 🧱 *Diseño visual:* Material 3  
-- 🌐 *Control de versiones:* GitHub  
-- 📋 *Gestión del trabajo:* Trello  
+🧱 Arquitectura del Proyecto
+🧩 Arquitectura general
 
----
+MVVM (Model-View-ViewModel)
+
+Repositorios para manejo de datos
+
+ViewModels para la lógica y estados
+
+UI declarativa con Jetpack Compose
+
+📦 Estructura principal
+AppFitLife/
+│── app/
+│   ├── ui/ (pantallas y componentes)
+│   ├── viewmodel/
+│   ├── repository/
+│   ├── network/ (API externa + microservicios)
+│   └── data/ (modelos, DataStore)
+│
+└── backend/
+    ├── controller/
+    ├── model/
+    ├── service/
+    └── resources/
+
+🧪 Funcionalidades Principales
+📲 En la App Móvil
+
+Pantallas diseñadas con Material 3
+
+Formularios con validaciones (login, registro, rutinas, etc.)
+
+Navegación fluida con Navigation Compose
+
+Gestión de estado reactiva (StateFlow / MutableState)
+
+Integración con microservicios (Retrofit)
+
+Consumo de API externa (JSONPlaceholder)
+
+Persistencia local mediante DataStore
+
+🌐 En el Backend (Spring Boot)
+
+Microservicios con endpoints REST funcionales
+
+Controladores estructurados
+
+Lógica basada en listas en memoria
+(válido porque el profesor indicó que no era necesario BD para esta entrega)
+
+🔗 Integraciones
+📡 Integración con Microservicios Propios
+
+La app se comunica con el backend mediante Retrofit:
+
+http://10.0.2.2:8080/api/
+
+🌍 API Externa Consumida
+
+Se integra JSONPlaceholder para mostrar datos externos:
+
+https://jsonplaceholder.typicode.com/
+
+🧪 Pruebas Unitarias
+
+La aplicación incluye pruebas unitarias usando:
+
+Kotest
+
+MockK
+
+Test de ViewModels
+
+Test de Repositories
+
+Las pruebas cubren el flujo principal de obtención de datos y lógica UI, cumpliendo el indicador IE 3.2.1.
+
+📦 APK Firmado
+
+La entrega incluye:
+
+APK firmado en modo Release: app-release.apk
+
+Archivo .jks utilizado en la configuración
+
+build.gradle configurado con signingConfigs
+
+Cumple con el indicador IE 3.3.1.
+
+🛠 Tecnologías Utilizadas
+📱 Frontend
+
+Kotlin
+
+Jetpack Compose (Material 3)
+
+Navigation Compose
+
+ViewModel + StateFlow
+
+Retrofit + Gson
+
+DataStore
+
+🖥 Backend
+
+Spring Boot
+
+REST Controllers
+
+Maven
+
+Dependencias Spring Web
+
+🔐 Distribución
+
+Firma de APK
+
+Keystore propia
+
+🌐 Gestión y Control
+
+GitHub (commits distribuidos, ramas, versionamiento)
+
+Trello (planificación y seguimiento de tareas)
+
+🧭 Instrucciones de Ejecución
+▶️ Ejecutar la App Móvil
+
+Abrir el proyecto en Android Studio.
+
+Sincronizar Gradle.
+
+Ejecutar en emulador o dispositivo físico.
+
+Nota: Para comunicación con backend en emulador, se utiliza 10.0.2.2.
+
+▶️ Ejecutar Backend (Spring Boot)
+
+Abrir carpeta /backend
+
+Ejecutar:
+mvn spring-boot:run
+
+El backend expone sus endpoints en:
+http://localhost:8080/api/
+
+📋 Cumplimiento de Rúbrica – Evaluación Parcial 5 (Experiencia 3)
+Indicador	Cumple	Descripción
+IE 3.1.1 – App móvil completa	✅	Pantallas, flujos, validaciones y navegación funcional sin errores.
+IE 3.1.2 – Microservicios propios	✅	Endpoints operativos. BD no requerida según instrucciones del docente.
+IE 3.1.3 – Integración app ↔ microservicios	✅	Retrofit conectado al backend, envío y recepción de datos.
+IE 3.1.4 – API externa	✅	JSONPlaceholder integrado a la UI.
+IE 3.2.1 – Pruebas unitarias	✅	ViewModels y repositorios probados.
+IE 3.3.1 – APK firmado	✅	Se incluye APK + .jks y configuración Gradle.
+IE 3.3.2 – GitHub y Trello	✅	Repositorio activo, commits distribuidos y tablero Trello utilizado.
+
+🙌 Conclusión
+AppFitLife cumple completamente con los requisitos del Encargo y la Experiencia 3, integrando microservicios, API externa, pruebas unitarias, APK firmado, planificación colaborativa y una app estable y funcional desarrollada con buenas prácticas.
+AppFitLife cumple completamente con los requisitos del Encargo y la Experiencia 3, integrando microservicios, API externa, pruebas unitarias, APK firmado, planificación colaborativa y una app estable y funcional desarrollada con buenas prácticas.
