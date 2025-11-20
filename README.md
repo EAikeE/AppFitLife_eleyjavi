@@ -9,47 +9,6 @@ Docente: Atanacio Montano
 AppFitLife es una aplicación móvil desarrollada en Kotlin + Jetpack Compose (Material 3) que ayuda a los usuarios a mejorar su bienestar mediante el registro de actividad física, control de hidratación y seguimiento de rutinas.
 El proyecto integra microservicios propios, consumo de API externa, pruebas unitarias, y un APK firmado listo para distribución, cumpliendo todos los criterios de la Experiencia 3.
 
-🧱 Arquitectura del Proyecto
-🧩 Frontend (App móvil)
-Kotlin
-Jetpack Compose (Material 3)
-Navigation Compose
-MVVM
-Retrofit
-DataStore
-Pruebas con Kotest + MockK
-
-🌐 Backend (Microservicios)
-Spring Boot
-REST Controllers
-Maven
-Endpoints funcionales
-
-📡 Integraciones
-🔗 Microservicios propios
-La app se comunica con el backend mediante Retrofit, usando:
-http://10.0.2.2:8080/api/
-
-🌍 API externa
-Se consume JSONPlaceholder:
-https://jsonplaceholder.typicode.com/
-
-🧪 Pruebas Unitarias
-Incluye pruebas en:
-ViewModels
-Repositories
-Lógica interna de la app
-
-Tecnologías:
-Kotest
-MockK
-
-📦 APK Firmado
-El repositorio incluye:
-APK firmado (app-release.apk)
-Archivo .jks
-Configuración signingConfigs en build.gradle
-
 🛠 Tecnologías Utilizadas
 | Área         | Tecnologías                                          |
 | ------------ | ---------------------------------------------------- |
