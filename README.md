@@ -1,13 +1,8 @@
 💪 AppFitLife
 
-📱 Aplicación móvil para promover hábitos saludables
-
 Asignatura: Desarrollo de Aplicaciones Móviles (DSY1105)
-
 Integrantes: Javiera Marchesse – Elena Espinoza
-
 Sección: 004D
-
 Docente: Atanacio Montano
 
 📘 Descripción del Proyecto
